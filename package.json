@@ -1,0 +1,30 @@
+{
+  "name": "multi-access-todo-app",
+  "version": "1.0.0",
+  "description": "A todo app with multi-user access",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishrutAggarwal/multi-access-todo-app.git"
+  },
+  "author": "Vishrut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VishrutAggarwal/multi-access-todo-app/issues"
+  },
+  "homepage": "https://github.com/VishrutAggarwal/multi-access-todo-app#readme",
+  "dependencies": {
+    "@seald-io/nedb": "^4.0.4",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "nedb": "^1.8.0",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.0"
+  }
+}
